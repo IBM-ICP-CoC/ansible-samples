@@ -9,3 +9,6 @@
 
   - name: get home directory listing
     command: ls -la ~
+    register: cmd_result
+    
+  - debug: var=cmd_result.stdout_lines
