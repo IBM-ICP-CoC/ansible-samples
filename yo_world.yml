@@ -6,3 +6,6 @@
  
   - name: Yo World!
     shell: echo "Hi! AWX is working."
+
+  - name: get home directory listing
+    command: ls -la ~
