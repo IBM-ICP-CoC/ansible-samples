@@ -1,6 +1,4 @@
 - name: This sets up an nginx webserver on an ubuntu machine
-  hosts: all
-  user: coc
   become: true
 
   tasks:
