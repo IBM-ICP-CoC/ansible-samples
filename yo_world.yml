@@ -1,0 +1,8 @@
+---
+- name: Yo World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Yo World!
+    shell: echo "Hi! AWX is working."
