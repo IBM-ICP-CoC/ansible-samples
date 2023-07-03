@@ -1,5 +1,5 @@
 - name: Yo World!
- 
+  hosts: * 
   tasks:
  
   - name: Yo World!
