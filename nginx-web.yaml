@@ -1,5 +1,6 @@
 - name: This sets up an nginx webserver on an ubuntu machine
   become: true
+  hosts: all
 
   tasks:
     - name: ensure nginx is at the latest version
