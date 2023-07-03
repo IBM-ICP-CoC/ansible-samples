@@ -1,6 +1,5 @@
 ---
 - name: Yo World!
-  hosts: all
  
   tasks:
  
